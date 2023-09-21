@@ -33,7 +33,7 @@ public class Task {
 
         return shortestWord;
     }
-    // Посредством метода findShortestWord находим и возвращаем самое короткое слово в массиве, сравнивая длины каждой строки
+    // Находим и возвращаем самое короткое слово в массиве, сравнивая длины каждой строки
     public static String findShortestWord(String[] strs) {
         String shortestWord = strs[0];
         for (String str : strs) {
